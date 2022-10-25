@@ -10,4 +10,5 @@ def power(a, n):
 
 k, p, n = map(int, input().split())
 virous = (k*(power(p,10*n))) % 1000000007
+
 print(virous)
